@@ -1,4 +1,5 @@
 import React from 'react'
+import './Banner.css'
 
 function Banner() {
   return (
@@ -13,6 +14,9 @@ function Banner() {
             In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
             </h1>
         </div>
+        <div className="fade-bottom"></div>
+
+
       
     </div>
   )
