@@ -6,7 +6,7 @@ import Youtube from 'react-youtube'
 
 function Rowpost(props) {
   const [movies,setMovies]=useState([])
-  const [urlId,setUrlId]=('')
+  const [urlId,setUrlId]=useState('')
   useEffect(()=>{
     axios.get(props.url).then(response=>{
       console.log(response.data)
